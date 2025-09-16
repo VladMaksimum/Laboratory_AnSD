@@ -1,11 +1,16 @@
 #Сортирова вставками
 nums = list(map(int, input().split()))
 
-for i in range(0,len(nums)):
-    for j in range(i+1, 1, -1):
-        if nums[j] < nums[i]:
-            tmp = nums[i]
-            nums[i] = nums[j]
-            nums[j] = tmp
+for i in range(1,len(nums)):
+    print(nums)
+    j=i
+
+    while nums[j-1] > nums[j] and j>0:
+        tmp = nums[j-1]
+        nums[j-1] = nums[j]
+        nums[j] = tmp
+
+        j-=1
+
 
 print(nums)
