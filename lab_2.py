@@ -10,7 +10,7 @@ for symbol in equation:
 
     is_active = True
 
-    print(new_equation, notation_stack, symbol)
+    #print(new_equation, notation_stack, symbol)
     if symbol.isnumeric():
         number += symbol
         is_active = False
@@ -38,20 +38,18 @@ for symbol in equation:
             notation_stack.pop()
             is_active = False
         
-        else:
-             is_active = False
+        elif symbol == '=' and notation_stack[-1] == '=':
+                notation_stack.pop()
+                break
+                
+        elif (symbol == ')' and notation_stack[-1] == '=') or (symbol == '=' and notation_stack[-1] == '('):
+                break
         
+        else:
+            is_active = False
 
 
-    if symbol == '=' and notation_stack[-1] == '=':
-            notation_stack.pop()
-            break
-            
-    if (symbol == ')' and notation_stack[-1] == '=') or (symbol == '=' and notation_stack[-1] == '('):
-            break
-
-
-print(new_equation)
+#print(new_equation)
 
 count_stack = []
 alright = True
@@ -59,8 +57,9 @@ alright = True
 if len(notation_stack)==0:
 
     for element in new_equation:
+        #print(count_stack)
         if type(element) == int:
-             count_stack.append(element)
+            count_stack.append(element)
             
         elif element == '+':
             num1 = count_stack[-2]
@@ -99,6 +98,10 @@ if len(notation_stack)==0:
                 print("Division by zero")
                 alright = False
                 break
+else:
+    alright = False
+
+#print(alright)
 if alright:
     print(count_stack[0])
 
