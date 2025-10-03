@@ -7,7 +7,15 @@ def quick_sort(nums : list, start : int, end : int):
 
 
     #print(nums, start, end)
-    if end-start <= 1:
+    if end-start == 1:
+        if nums[end] < nums[start]:
+            tmp = nums[end]
+            nums[end] = nums[start]
+            nums[start] = tmp
+
+        return
+    
+    if end - start <= 0:
         return
 
     i = start
