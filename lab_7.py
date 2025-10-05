@@ -16,7 +16,7 @@ for step in steps:
     for i in range(int(len(nums)/step)):
         ind_mass = [j for j in range(i, len(nums), step)]
 
-        print(ind_mass)
+        #print(ind_mass)
 
         #print([nums[i] for i in ind_mass])
 
