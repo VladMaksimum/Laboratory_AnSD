@@ -6,7 +6,7 @@ def create_runs(size : int, input : str):
 
     with open(input, "r") as input_file:
         files_list = []
-        files_counter = 0
+        files_counter = 1
 
 
         while not end_of_file:
@@ -49,7 +49,7 @@ def merge_sort(files_paths : list[str], size : int, output : str):
         cnt = 0
 
         while cnt < len(files):
-            print(merge_mass)
+            #print(merge_mass)
             min_elem = 10**8
             min_file = 0
             min_ind = 0
@@ -61,7 +61,7 @@ def merge_sort(files_paths : list[str], size : int, output : str):
                     min_ind = j
 
             output_file.write(str(min_elem) + '\n')
-            print(min_elem, cnt)
+            #print(min_elem, cnt)
             next_elem = files[min_file].readline().strip()
 
             if next_elem:
