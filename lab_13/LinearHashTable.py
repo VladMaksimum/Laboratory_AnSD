@@ -62,6 +62,17 @@ class LinearHashTable:
             index = (index + 1) % self.capacity
         
         return -1
+    
+    def __str__(self) -> str:
+        result = '{'
+
+        for index, key in enumerate(self.table):
+            if key == None:
+                continue
+
+            result += f'{index} : {key}, '
+        
+        return result[:-2:] + "}"
 
     
 

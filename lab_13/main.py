@@ -15,7 +15,10 @@ with open("lab_13/input.txt") as file:
         for word in line:
             hash_table.insert(word)
         
-        #print(hash_table.table)
-print(hash_table.find("efforts"))
+
+with open("lab_13/output.txt", "w") as out_file:
+    out_file.write(str(hash_table))
+
+
 
         
