@@ -64,15 +64,15 @@ class LinearHashTable:
         return -1
     
     def __str__(self) -> str:
-        result = '{'
+        result = ''
 
         for index, key in enumerate(self.table):
             if key == None:
                 continue
 
-            result += f'{index} : {key}, '
+            result += f'{index} : {key}\n'
         
-        return result[:-2:] + "}"
+        return result
 
     
 
