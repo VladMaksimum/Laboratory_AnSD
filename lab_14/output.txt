@@ -1,0 +1,266 @@
+1 : fungus,
+3 : plantations
+4 : for
+8 : Michel, abandoned
+12 : it’s, lab-based, temporary
+13 : TR-4,
+17 : Also,
+18 : infected
+25 : way
+28 : practices
+30 : Cavendish,, bad
+32 : haven’t
+36 : Researchers
+38 : it.
+41 : could
+43 : a
+51 : cubense,, boots
+54 : searched
+59 : happening, weather.
+61 : Unfortunately,, problem
+64 : region., species.
+65 : banana
+70 : equipment
+72 : saved
+76 : dependent
+78 : stem
+82 : producer,, Growers
+84 : affect.
+86 : Michel,
+88 : Asia
+91 : –
+92 : trucks,
+94 : major
+98 : to, genes
+100 : which
+102 : Cavendish
+103 : were
+104 : 46
+107 : consumers
+109 : exports
+111 : successor, transporting
+115 : As
+118 : tons
+120 : far, up
+121 : replanted
+123 : without
+126 : thick-skinned, safe.
+129 : cloned, afford
+132 : crops
+133 : scientists
+137 : can’t
+141 : spreading
+142 : suited
+145 : down
+148 : grower
+152 : it,
+160 : always
+168 : methods
+169 : main
+171 : Most, has
+176 : tyres
+177 : their
+178 : Growing
+193 : spread
+194 : most
+195 : was
+199 : few
+201 : product,
+202 : next.
+213 : fungus
+214 : crop
+215 : around
+217 : quarantining
+219 : huge
+220 : Fusarium
+221 : plant
+223 : in.
+224 : attempt
+230 : cleaning
+238 : United
+239 : three
+242 : so
+243 : good, about
+244 : risk
+249 : kinds
+250 : Fruit
+251 : dropped
+252 : dominated, filling
+254 : escape, modified
+255 : on
+258 : million
+259 : The
+262 : itself
+263 : by
+264 : America,
+265 : so.
+267 : In
+269 : original
+270 : mass-produced
+273 : then
+275 : didn’t, wasn’t
+282 : seem
+292 : America.
+296 : With
+298 : or
+300 : just
+306 : working
+308 : fields,
+309 : attacks
+312 : flooded
+316 : bananas, industry,
+320 : exporter
+322 : time,
+323 : farmers
+324 : Racing
+325 : thanks
+327 : stems
+328 : variety
+337 : conditions, rise
+338 : banana,
+341 : University
+344 : remained
+347 : transported,
+348 : do
+352 : roots
+356 : bananas., matters.
+358 : easily, provided.
+365 : Mozambique
+367 : infecting
+369 : travelled
+374 : monocultures
+375 : again
+385 : keep
+387 : strict
+388 : of, before
+390 : facing
+391 : But,
+392 : as
+395 : commercial
+399 : Their
+400 : this
+405 : combination
+407 : death, 2014,
+409 : efficient
+413 : solution
+416 : also, that
+418 : greenhouse
+419 : instead
+423 : years
+424 : TR-1, else,, thousands
+425 : America
+426 : thrived, may
+429 : far.
+431 : Asia,
+437 : cent
+441 : enough
+447 : South
+448 : four
+449 : affect
+450 : expensive
+451 : fields.
+458 : called,
+460 : solving
+461 : disease.
+463 : oxysporum
+465 : water
+471 : rainforest
+475 : aren’t
+476 : efforts
+480 : TR-4-resistant
+485 : While
+488 : importantly,
+490 : at
+496 : is, crops,
+502 : helped
+510 : somewhere
+514 : growers
+524 : exported
+533 : prevents
+534 : from, failed.
+536 : 1950s,
+537 : too.
+538 : farm
+540 : shipping
+545 : Gros, growing
+548 : cutting
+549 : Central
+550 : And
+553 : Technology
+560 : monoculture, Queensland
+566 : years,
+570 : now
+571 : and
+576 : leaves.
+578 : the
+581 : If
+584 : but
+587 : sprays, grown
+590 : think
+591 : Middle
+596 : They
+600 : densely, well
+604 : tasted
+605 : fruit,
+610 : slowly
+613 : known
+615 : planted
+617 : It
+619 : them
+620 : successfully
+621 : genetically
+624 : sp.
+626 : plants,
+630 : Big
+632 : plant’s
+636 : British
+640 : often, clone
+643 : Australia,
+644 : they, another
+645 : strain, But
+646 : cultivated
+652 : experts
+655 : disease
+657 : version
+658 : plants, these
+660 : Mike.
+662 : in
+663 : inevitable,
+664 : found
+666 : instead,
+667 : shoots, f.
+669 : operation
+672 : be
+674 : against
+675 : lucrative, Mike’s
+679 : Fruit,, new, sophisticated
+680 : success
+681 : possible:, happy.
+683 : threaten
+684 : an
+685 : same
+687 : seeds,
+690 : perfect
+692 : two
+696 : it
+702 : are
+705 : duke.
+710 : Latin
+711 : American
+712 : some
+713 : So,
+718 : have
+721 : East
+733 : result,
+741 : per
+745 : across
+748 : Cavendish., its
+761 : packed
+764 : resistant
+765 : bankruptcy
+771 : copying
+785 : modifying
+786 : sweet-tasting, had
+787 : with
+789 : 2015,
+794 : heavily
