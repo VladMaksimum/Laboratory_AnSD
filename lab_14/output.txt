@@ -1,266 +1,208 @@
-1 : fungus,
-3 : plantations
-4 : for
-8 : Michel, abandoned
-12 : it’s, lab-based, temporary
-13 : TR-4,
-17 : Also,
-18 : infected
-25 : way
-28 : practices
-30 : Cavendish,, bad
-32 : haven’t
-36 : Researchers
-38 : it.
-41 : could
-43 : a
-51 : cubense,, boots
-54 : searched
-59 : happening, weather.
-61 : Unfortunately,, problem
-64 : region., species.
-65 : banana
-70 : equipment
-72 : saved
-76 : dependent
-78 : stem
-82 : producer,, Growers
-84 : affect.
-86 : Michel,
-88 : Asia
-91 : –
-92 : trucks,
-94 : major
-98 : to, genes
-100 : which
-102 : Cavendish
-103 : were
-104 : 46
-107 : consumers
-109 : exports
-111 : successor, transporting
-115 : As
-118 : tons
-120 : far, up
-121 : replanted
-123 : without
-126 : thick-skinned, safe.
-129 : cloned, afford
-132 : crops
-133 : scientists
-137 : can’t
-141 : spreading
-142 : suited
-145 : down
-148 : grower
-152 : it,
-160 : always
-168 : methods
-169 : main
-171 : Most, has
-176 : tyres
-177 : their
-178 : Growing
-193 : spread
-194 : most
-195 : was
-199 : few
-201 : product,
-202 : next.
-213 : fungus
-214 : crop
-215 : around
-217 : quarantining
-219 : huge
-220 : Fusarium
-221 : plant
-223 : in.
-224 : attempt
-230 : cleaning
-238 : United
-239 : three
-242 : so
-243 : good, about
-244 : risk
-249 : kinds
-250 : Fruit
-251 : dropped
-252 : dominated, filling
-254 : escape, modified
-255 : on
-258 : million
-259 : The
-262 : itself
-263 : by
-264 : America,
-265 : so.
-267 : In
-269 : original
-270 : mass-produced
-273 : then
-275 : didn’t, wasn’t
-282 : seem
-292 : America.
-296 : With
-298 : or
-300 : just
-306 : working
-308 : fields,
-309 : attacks
-312 : flooded
-316 : bananas, industry,
-320 : exporter
-322 : time,
-323 : farmers
-324 : Racing
-325 : thanks
-327 : stems
-328 : variety
-337 : conditions, rise
-338 : banana,
-341 : University
-344 : remained
-347 : transported,
-348 : do
-352 : roots
-356 : bananas., matters.
-358 : easily, provided.
-365 : Mozambique
-367 : infecting
-369 : travelled
-374 : monocultures
-375 : again
-385 : keep
-387 : strict
-388 : of, before
-390 : facing
-391 : But,
-392 : as
-395 : commercial
-399 : Their
-400 : this
-405 : combination
-407 : death, 2014,
-409 : efficient
-413 : solution
-416 : also, that
-418 : greenhouse
-419 : instead
-423 : years
-424 : TR-1, else,, thousands
-425 : America
-426 : thrived, may
-429 : far.
-431 : Asia,
-437 : cent
-441 : enough
-447 : South
-448 : four
-449 : affect
-450 : expensive
-451 : fields.
-458 : called,
-460 : solving
-461 : disease.
-463 : oxysporum
-465 : water
-471 : rainforest
-475 : aren’t
-476 : efforts
-480 : TR-4-resistant
-485 : While
-488 : importantly,
-490 : at
-496 : is, crops,
-502 : helped
-510 : somewhere
-514 : growers
-524 : exported
-533 : prevents
-534 : from, failed.
-536 : 1950s,
-537 : too.
-538 : farm
-540 : shipping
-545 : Gros, growing
-548 : cutting
-549 : Central
-550 : And
-553 : Technology
-560 : monoculture, Queensland
-566 : years,
-570 : now
-571 : and
-576 : leaves.
-578 : the
-581 : If
-584 : but
-587 : sprays, grown
-590 : think
-591 : Middle
-596 : They
-600 : densely, well
-604 : tasted
-605 : fruit,
-610 : slowly
-613 : known
-615 : planted
-617 : It
-619 : them
-620 : successfully
-621 : genetically
-624 : sp.
-626 : plants,
-630 : Big
-632 : plant’s
-636 : British
-640 : often, clone
-643 : Australia,
-644 : they, another
-645 : strain, But
-646 : cultivated
-652 : experts
-655 : disease
-657 : version
-658 : plants, these
-660 : Mike.
-662 : in
-663 : inevitable,
-664 : found
-666 : instead,
-667 : shoots, f.
-669 : operation
-672 : be
-674 : against
-675 : lucrative, Mike’s
-679 : Fruit,, new, sophisticated
-680 : success
-681 : possible:, happy.
-683 : threaten
-684 : an
-685 : same
-687 : seeds,
-690 : perfect
-692 : two
-696 : it
-702 : are
-705 : duke.
-710 : Latin
-711 : American
-712 : some
-713 : So,
-718 : have
-721 : East
-733 : result,
-741 : per
-745 : across
-748 : Cavendish., its
-761 : packed
-764 : resistant
-765 : bankruptcy
-771 : copying
-785 : modifying
-786 : sweet-tasting, had
-787 : with
-789 : 2015,
-794 : heavily
+0 : American, were, could
+4 : cutting, spreading
+6 : them, same
+7 : up
+8 : thickskinned, dropped
+9 : Fruit
+11 : huge
+12 : crop, per
+13 : they
+14 : packed, may
+15 : Mikes
+16 : happy, expensive, temporary
+17 : Mike
+18 : somewhere, Most
+22 : United
+23 : safe
+25 : As, this
+26 : affect, genes
+28 : Middle
+30 : good
+31 : species
+33 : grower, suited
+35 : itself, monoculture
+36 : it, escape
+39 : shipping, thanks
+43 : facing
+49 : attacks, roots, thrived
+51 : now, experts
+53 : So
+56 : its
+57 : Michel, years
+59 : just
+60 : seeds, sp
+62 : South
+67 : sophisticated
+69 : thousands
+70 : cloned
+72 : or
+73 : Asia, quarantining
+74 : tons, modified
+76 : fungus
+82 : problem
+83 : filling
+88 : And, Cavendish
+90 : Gros
+91 : these
+92 : bankruptcy
+93 : transported, remained
+95 : success
+96 : that
+97 : found
+98 : new
+100 : massproduced
+103 : enough
+105 : risk
+110 : in
+120 : to
+122 : Central
+124 : It
+125 : product
+126 : a
+127 : the
+128 : crops
+129 : by
+132 : grown
+136 : replanted
+137 : another
+139 : exporter
+141 : bananas
+142 : weather
+144 : Growing, planted
+145 : University
+148 : major, havent, has
+150 : combination
+153 : always
+158 : modifying
+159 : The
+160 : is
+163 : most
+165 : keep
+167 : 1950s, If
+168 : resistant, Researchers, monocultures
+169 : travelled, greenhouse, cleaning
+174 : tyres, didnt
+175 : working
+179 : failed
+184 : Big, scientists
+185 : Technology
+188 : Racing
+190 : genetically
+191 : again, stem
+193 : known, plant, time, efforts, farm
+194 : prevents
+196 : efficient, original
+197 : Also
+199 : strict
+200 : flooded, about
+201 : happening, cant
+203 : and
+205 : slowly
+206 : shoots, plants
+207 : practices
+209 : successor, on
+211 : often, tasted
+212 : then, matters, successfully
+215 : are, for
+218 : bad
+220 : perfect
+221 : water
+226 : leaves
+227 : strain, kinds
+232 : four, Growers
+234 : operation, TR4
+236 : dominated
+237 : instead, think
+238 : an
+239 : of, possible
+240 : Their
+241 : region
+242 : had
+243 : cubense
+244 : labbased
+245 : threaten
+246 : equipment
+248 : clone
+250 : provided
+251 : oxysporum
+252 : few
+254 : consumers, exported
+255 : well, heavily
+256 : rainforest
+261 : way, Fusarium
+262 : commercial, death
+266 : without
+267 : wasnt
+268 : solving
+270 : producer
+271 : plantations
+274 : growing
+278 : also, methods
+280 : copying
+283 : transporting
+284 : afford
+285 : infecting
+286 : farmers
+287 : be
+289 : which, two
+291 : inevitable
+292 : abandoned
+295 : main
+297 : lucrative
+298 : British
+300 : TR1
+301 : fields
+309 : next
+310 : against
+312 : as, industry
+313 : infected
+314 : f, variety, some
+315 : from
+316 : called
+318 : disease
+319 : spread
+321 : But
+323 : dependent
+325 : attempt
+326 : Latin
+331 : with
+332 : saved, million
+334 : around, duke, While
+335 : result
+336 : their
+339 : easily
+340 : Queensland
+344 : With
+345 : TR4resistant
+348 : so
+351 : America, at
+352 : do, helped
+353 : 46, three
+354 : banana, but, solution
+355 : else
+357 : importantly, 2015
+359 : sprays
+362 : arent
+363 : have
+364 : far, exports
+365 : 2014
+367 : sweettasting
+369 : across, They, rise
+371 : Unfortunately
+374 : In
+376 : seem
+377 : growers
+378 : densely
+379 : Mozambique
+382 : East, Australia, before
+383 : was
+385 : boots
+388 : conditions
+389 : stems, searched
+390 : down
+391 : version
+395 : trucks
+396 : cultivated
+397 : fruit
+398 : cent
+399 : too
