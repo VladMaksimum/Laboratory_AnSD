@@ -4,6 +4,9 @@ class Point:
     def __init__(self, x: Numeric, y: Numeric):
         self.x = x
         self.y = y
+    
+    def __repr__(self):
+        return f'({self.x}, {self.y})'
 
 class Line:
     def __init__(self, a: Numeric, b: Numeric, c: Numeric):
