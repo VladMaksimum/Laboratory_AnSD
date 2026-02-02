@@ -1,38 +1,18 @@
 from typing import Self
 
-def count_prefixs(string: str) -> list[int]:
-    res: list[int] = [0 for _ in range(len(string))]
-    res[0] = -1
-    cnt = 0
-
-    for i in range(2, len(string)):
-        while cnt != 0 and string[cnt] != string[i]:
-            cnt = res[cnt-1]
-        
-        if string[cnt] == string[i]:
-            cnt += 1
-
-        res[i] = cnt
-    
-
-    return res
 
 class Node:
-    def __init__(self, string: str, is_possible: bool):
+    def __init__(self, string: str, is_possible: bool, parent: Self | None = None):
         self.string = string
         self.next: dict[str, Self] = {}
-        self.suff_link: list[Self] = []
+        self.suff_link: Self | None = None
+        self.parent = parent
         self.is_possible = is_possible
-    
-    def min_suff(self) -> str:
-        prefixs = count_prefixs(self.string)
-
-        return self.string[:prefixs[-1]:]
 
 
 class String_Tree:
     def __init__(self):
-        self.root = Node('', True)
+        self.root = Node('', False)
     
     def add(self, string: str) -> None:
         current = self.root
@@ -42,45 +22,51 @@ class String_Tree:
             if string[i] in current.next.keys():
                 current = current.next[string[i]]
             else:
-                current.next[string[i]] = Node(string, False)
+                current.next[string[i]] = Node(string[:(i+1):], False, current)
+                current = current.next[string[i]]
+
             i += 1
         
-        current.next[string[-1]] = Node(string, True)
-        current = current.next[string[-1]]
+        current.next[string[-1]] = Node(string, True, current)
 
-        suff = current.min_suff()
-        suff_node = self._find(suff)[1]
-
-        if suff_node == None:
-            return
-        
-        if not suff_node.is_possible:
-            return
-        
-        current.suff_link = suff_node
-
-    
-    def _find(self, string: str) -> tuple[bool, Node | None]:
-        current = self.root
-
-        i = 0
-        while current.string != string:
-            if string[i] in current.next.keys():
-                current = current.next[string[i]]
-                i+=1
+    def get_move(self, current: Node, symbol: str) -> Node:
+        #print(current.string, symbol, "move", current.next.keys())
+        if not symbol in current.next.keys():
+            if current == self.root:
+                current.next[symbol] = self.root
             else:
-                return (False, None)
+                current.next[symbol] = self.get_move(self.get_suff_link(current), symbol)
         
-        return (True, current)
-
-    def find_in(self, string: str) -> tuple[int, int]:
-        q = 0
-        res = ()
-
-        for symbol in string:
+        return current.next[symbol]
+    
+    def get_suff_link(self, current: Node) -> Node:
+        #print(current.string, "link")
+        if current.suff_link == None:
+            if len(current.string) <= 1:
+                current.suff_link = self.root
+            
+            else:
+                current.suff_link = self.get_move(self.get_suff_link(current.parent), current.string[-1])
             
 
-        return res
-    
+        return current.suff_link
 
 
+    def find_in(self, string: str) -> None:
+        current = self.root
+
+        for i in range(len(string)):
+            #print(i)
+
+            if current.is_possible:
+                print(f"Substring {string[(i - len(current.string)):i:]} in range {i - len(current.string)} \
+{(i-1)}")
+            
+            current = self.get_move(current, string[i])
+            #print(current.string, "after")
+
+
+if __name__ == "__main__":
+    tree = String_Tree()
+
+    print(tree.root, tree.get_suff_link(tree.root))
