@@ -27,7 +27,11 @@ class String_Tree:
 
             i += 1
         
-        current.next[string[-1]] = Node(string, True, current)
+        if string[-1] in current.next.keys():
+            current = current.next[string[-1]]
+            current.is_possible = True
+        else:
+            current.next[string[-1]] = Node(string, True, current)
 
     def get_move(self, current: Node, symbol: str) -> Node:
         #print(current.string, symbol, "move", current.next.keys())
@@ -56,13 +60,14 @@ class String_Tree:
         current = self.root
 
         for i in range(len(string)):
+            #print(current.string)
+            current = self.get_move(current, string[i])
             #print(i)
 
             if current.is_possible:
-                print(f"Substring {string[(i - len(current.string)):i:]} in range {i - len(current.string)} \
-{(i-1)}")
+                print(f"Substring {string[(i - len(current.string)) + 1:i + 1:]} in range {i - len(current.string) + 1} \
+{(i)}")
             
-            current = self.get_move(current, string[i])
             #print(current.string, "after")
 
 
